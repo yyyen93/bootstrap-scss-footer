@@ -1,0 +1,35 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+Note: Do not write any CSS in this file. Only use it to import other CSS files.
+Note: '~' in the import statement means the file is imported from the node_modules directory. Bootstrap functions is an example.
+
+- Bootstrap Functions.
+- Bootstrap Mixins.
+- Framework SASS Variables - override Bootstrap's SASS Vars in this file.
+- Bootstrap Variables.
+- Framework Mixins
+- Framework Utilities
+- Bootstrap Core
+- Framework CSS Custom Properties (CSS Variables)
+- Framework Base
+- Framework Components
+- Framework Vendors
+- Custom CSS - Add your custom CSS to this file
+*/
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/variables';
+@import 'abstracts/custom-variables';
+@import 'abstracts/variables';
+@import '~bootstrap/scss/maps';
+// @import 'abstracts/mixins';
+@import 'utils/utils-dir';
+@import '~bootstrap/scss/bootstrap';
+@import 'abstracts/css-vars';
+// @import 'base/base';
+@import 'components/component-dir';
+// @import 'vendors/vendors';
+// @import 'custom';
+
