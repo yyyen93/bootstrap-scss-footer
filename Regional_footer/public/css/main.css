@@ -17778,106 +17778,6 @@ textarea.form-control-lg {
   --theme-breakpoint-xxl: 1400px;
 }
 
-.nav-link {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.navbar-logo-span {
-  letter-spacing: 1px;
-  margin-left: -2%;
-  padding-top: 5%;
-  font-size: 1.4rem;
-}
-
-.dropdown-menu {
-  box-shadow: 0 1rem 2.5rem rgba(29, 48, 61, 0.125);
-}
-
-.dropdown-toggle {
-  position: relative;
-}
-.dropdown-toggle:after {
-  border: 0;
-  font-family: var(--theme-font-icon);
-  font-style: var(--theme-font-icon-style);
-  content: "\ea50";
-  margin: 0 !important;
-  font-size: 1.15rem;
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-}
-.dropdown-toggle.show:after {
-  content: "\ea56";
-}
-
-.dropdown-toggle {
-  padding-right: 1.25rem !important;
-}
-
-.dropdown-heading {
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  font-size: 80%;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-
-.dropdown-img {
-  width: 200px;
-  height: 100px;
-}
-
-@media (min-width: 992px) {
-  .dropdown-megamenu {
-    width: 100%;
-    left: 0;
-    right: 0;
-    border-radius: 0 !important;
-    padding: 0 !important;
-    background: #fff;
-    margin: 0 !important;
-    border: 0 !important;
-    border-top: 1px solid #E2E8F0 !important;
-    box-shadow: 0 1.5rem 31px -17px rgba(22, 28, 45, 0.08);
-  }
-  .dropdown-megamenu.show {
-    animation: fadeInUp 0.4s;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-  1% {
-    display: block;
-    opacity: 0;
-  }
-  100% {
-    display: block;
-    opacity: 1;
-  }
-}
-@keyframes fadeInUp {
-  0% {
-    display: none;
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  1% {
-    display: block;
-    opacity: 0;
-  }
-  100% {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 .footer-heading {
   text-transform: uppercase;
   font-size: 12px;
@@ -17906,4 +17806,26 @@ textarea.form-control-lg {
   margin-left: 0;
   padding-top: 15%;
   font-size: 1.4rem;
+}
+
+.custom-negative-margin {
+  margin-top: -4%;
+}
+
+.li-contact {
+  letter-spacing: 1px;
+}
+
+.i-icon {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.i-title {
+  font-size: 15px;
+  padding-top: 9px;
+  padding-left: 2px;
 }/*# sourceMappingURL=main.css.map */

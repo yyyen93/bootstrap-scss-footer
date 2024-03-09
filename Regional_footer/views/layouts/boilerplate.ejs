@@ -14,19 +14,23 @@
 
 <body class="body">
 
-    <main class="">
-        <%- body%>
-    </main>
 
-    <%- include('../partials/footer/footer.ejs')%>
+    <% if (version === 'v1') { %>
+        <%- include('../partials/footer/v1.ejs') %>
+    <% } else if (version === 'v2') { %>
+        <%- include('../partials/footer/v2.ejs') %>
+    <% } else if (version === 'v3'){ %>
+        <%- include('../partials/footer/v3.ejs') %>
+        
+    <% } %>
+
+
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-    <!-- <script src="/waypoints/lib/noframework.waypoints.min.js"></script>
-    <script src="/waypoints/lib/shortcuts/sticky.min.js"></script>
-    <script src="/jquery/dist/jquery.js"></script> -->
-    <script src="/js/scss-navbar/dropdown.js"></script>
+    </script> -->
+    <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

@@ -17,12 +17,10 @@ app.use(express.static(path.join(__dirname, '/node_modules'))); // static 'node_
 
 
 
-app.get('/footer', (req,res)=>{
-    res.render('source/footer');
-})
-
-
-
+app.get('/footer/:version', (req, res) => {
+    const version = req.params.version;
+    res.render('source/footer', { version });
+});
 
 
 
